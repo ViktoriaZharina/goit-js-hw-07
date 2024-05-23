@@ -14,14 +14,31 @@ body {
 }
 
 .item{
+padding: 16px;
+  width: 392px;
   background-color: #F6F6FE;
   border-radius: #2E2F42 1px;
   list-style: none;
 }
+.item h2{
+      font-weight: 600;
+        font-size: 24px;
+        line-height: 1.33333;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+}
+.item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 .item ul li{
   list-style: none;
-  border: #2E2F42 1px;
-  width: 360px;
+    border: 1px solid #2E2F42;
+      width: 360px;
+      padding: 5px;
+      margin-bottom: 5px;
+ 
 }
 
 .gallery {
