@@ -15,6 +15,13 @@ body {
 
 .item{
   background-color: #F6F6FE;
+  border-radius: #2E2F42 1px;
+  list-style: none;
+}
+.item ul li{
+  list-style: none;
+  border: #2E2F42 1px;
+  width: 360px;
 }
 
 .gallery {
