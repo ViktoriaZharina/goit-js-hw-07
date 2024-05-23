@@ -59,3 +59,21 @@ padding: 16px;
   height: 300px;
   display: block;
 }
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form button{
+  background: #4e75ff;
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 86px;
+    height: 40px;
+    font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #fff;
+}
