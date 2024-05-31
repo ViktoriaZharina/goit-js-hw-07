@@ -61,7 +61,10 @@ padding: 16px;
   height: 300px;
   display: block;
 }
-
+input{
+  width: 360px;
+  height: 40px;
+}
 .login-form{
   display: flex;
   flex-direction: column;
@@ -88,14 +91,20 @@ padding: 16px;
       margin-top: 16px;
 }
 
-input{
+div input{
   padding: 8px;
 border: 1px solid #808080;
   border-radius: 8px;
   width: 150px;
   height: 40px;
 }
-
+.change-color{
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 148px;
+    height: 40px;
+    background: #4e75ff;
+}
 div button{
   border-radius: 8px;
     padding: 8px 16px;
@@ -108,9 +117,8 @@ div button{
       letter-spacing: 0.04em;
       color: #fff;
 }
-
-div button:last-child{
-background: #ff4e4e;
+button[data-destroy]{
+  background: #ff4e4e;
 }
 
 .boxes{
